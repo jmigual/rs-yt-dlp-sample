@@ -1,0 +1,7 @@
+[package]
+name = "yt-dlp-sample"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+yt-dlp = { version = "1.3.3", features = ["tracing"] }
