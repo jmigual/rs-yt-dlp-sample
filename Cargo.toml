@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio = { version = "1.44.2", features = ["fs", "io-std", "tracing", "windows-sys"] }
+tracing = { version = "0.1.41", features = ["log"] }
+tracing-subscriber = { version = "0.3.19", features = ["env-filter", "json"] }
 yt-dlp = { version = "1.3.3", features = ["tracing"] }
